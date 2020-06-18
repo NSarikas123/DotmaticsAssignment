@@ -1,0 +1,139 @@
+/* Given my own default for buttons */
+button {
+    all:unset;
+    background-color: #dbdbdb;
+    width:130px;
+    height:30px;
+    text-align: center;
+}
+
+button:hover{
+    border: 1px solid black;
+}
+
+/* Wrapper for black background */
+.wrapper {
+    width:0;
+    height:0;
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+/* Header in widget */
+.ui-widget h4{
+    margin: 0;
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 1.5em
+}
+
+/* Whole widget structure */
+.ui-widget #substructureDialog {
+    padding: 35px;
+    padding-left: 45px;
+    padding-right: 45px;
+    text-align: center;
+}
+
+/* Input fileds in widget */
+.ui-widget input{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    padding: 0px 20px 0px;
+}
+
+
+/* Inputs in ui-widget */
+.tags .ui-autocomplete-input{
+    font-family: sans-serif;
+}
+
+/* Styling for tag fields */
+.tags {
+
+    background-color: #f0f0f0;
+    border: 0;
+    height:40px;
+    margin-bottom: 20px;
+    width : 90%;
+}
+
+/* Removes highlight when input filed active */
+.tags:focus{
+    outline: none;
+}
+
+/* https://jqueryui.com/autocomplete/#maxheight , Sets max height on autocomplete menu */
+.ui-autocomplete {
+    text-align: left;
+    max-height: 100px;
+    overflow-y: auto;
+    font-family: sans-serif;
+    font-size: 13px;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+}
+
+/* Menus in jquery widget*/
+.ui-menu-item {
+    font-size: 11px;
+}
+
+/* To hide x button on top right */
+.ui-dialog-titlebar-close {
+    visibility: hidden;
+}
+
+/* Hide dialog titlebar */
+.ui-dialog-titlebar {
+    background: rgba(0, 0, 0, 0) /* Transparent */
+}
+
+/* Remove border from widget*/
+.ui-widget.ui-widget-content{
+    border: 0;
+}
+
+/* The pair of buttons */
+.trigButtons{
+    margin-top: 10px;
+}
+
+.trigButtons button{
+    border: unset;
+    font-family: sans-serif;
+    width: 35%;
+    height: 38px;
+    font-weight: lighter;
+}
+
+/* Cancel Button */
+#cancel{
+    background-color: #cc5047;
+    color: white;
+}
+
+#cancel:hover{
+    background-color: #c92f24;
+}
+
+/* Save Button */
+#save {
+    background-color: #4cc76a;
+    color: white;
+}
+
+#save:hover{
+    background-color: #318f48;
+}
+
+/* Labels for each input in widget */
+#substructureFormLabel{
+    font-family: sans-serif;
+    font-weight: lighter;
+    float: left;
+}

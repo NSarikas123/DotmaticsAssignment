@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Widget</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="script.js"></script>
+
+    </head>
+    <body>
+        <button id="opener">Add Substructures</button>
+        <div class="wrapper">
+            <div class="ui-widget" id=substructureDialog title="Substructures to Include">
+                <h4>Substructures To Include</h4>
+                <form class="substructuresForm"  method="post">
+                    <label id="substructureFormLabel">Substructures (input a minimum of one):</label>
+                    <div class="inputs">
+                        <input class="tags" placeholder="Substructure">
+                        <input class="tags" placeholder="Substructure">
+                        <input class="tags" placeholder="Substructure">
+                    </div>
+                    <div class="trigButtons">
+                        <button id="cancel" type="button" name="cancel">Cancel</button>
+                        <button id="save" type="button" name="saveClose">Save & Close</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
